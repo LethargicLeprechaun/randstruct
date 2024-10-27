@@ -2,7 +2,7 @@
 name = "randstruct"
 version = "1.0.0"
 edition = "2021"
-license-file = "LICENSE"
+license = "GPL-2.0"
 description = "This crate implements a subset of the features of the GCC randomize_layout plugin."
 readme = "README.md"
 keywords = ["ffi", "interoperation", "c", "randstruct", "randomize_layout"]
