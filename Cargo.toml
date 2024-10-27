@@ -1,6 +1,18 @@
 [package]
-name = "randstruct_rs"
-version = "0.1.0"
+name = "randstruct"
+version = "1.0.0"
 edition = "2021"
+license-file = "LICENSE"
+description = "This crate implements a subset of the features of the GCC randomize_layout plugin."
+readme = "README.md"
+keywords = ["ffi", "interoperation", "c", "randstruct", "randomize_layout"]
+
+[lib]
+name = "randstruct"
+path = "src/lib.rs"
+proc-macro = true
+
+[build-dependencies]
+bindgen = "0.70.1"
 
 [dependencies]
